@@ -18,6 +18,7 @@ $(call inherit-product, device/motorola/albus/device.mk)
 
 # Inherit some common Kraken stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+CUSTOM_MAINTAINER := jeangraff30
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_BRAND := motorola
